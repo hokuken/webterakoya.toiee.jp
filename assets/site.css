@@ -35,6 +35,14 @@ ul.nav.tera-nav-pills li a{
 .tera-nav-pills>li.active>a:focus{
   background-color: #9ACCE2;
 }
+
+/*
+
+  index.html
+
+*/
+
+
 /* Eyecatch */
 
 .tera-eyecatch{
@@ -62,11 +70,11 @@ ul.nav.tera-nav-pills li a{
 
 /*  Contents  */
 
-.tera-contents{
+.tera-index-contents{
   margin: 50px 50px;
 }
 
-.tera-contents p{
+.tera-index-contents p{
   font-size: 15px;
   line-height: 1.7em;
 }
@@ -162,7 +170,7 @@ ul.nav.tera-nav-pills li a{
 
 /*
 
-  Contents
+  Contents.html
   
 */
 
