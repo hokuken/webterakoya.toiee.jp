@@ -190,7 +190,13 @@ ul.nav.tera-nav-pills li a{
 */
 
 .tera-contents{
-  margin: 50px 50px;
+  margin: 0;
+}  
+
+@media (min-width:768px){
+  .tera-contents{
+    margin: 50px 50px;
+  }  
 }
 
 .tera-contents-box h2{
@@ -202,8 +208,15 @@ ul.nav.tera-nav-pills li a{
 }
 
 .tera-story{
-  padding: 30px;
+  padding: 30px 15px;
 }
+
+@media (min-widht:768px){
+  .tera-story{
+    padding: 30px;
+  }
+}
+
 .tera-story p{
   font-weight: bold;
   margin-bottom: 30px;
