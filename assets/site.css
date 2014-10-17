@@ -110,8 +110,6 @@ ul.nav.tera-nav-pills li a{
   display: table-cell;
 }
 
-/*  Contents  */
-
 .tera-index-contents{
   margin: 50px 0;
 }
@@ -272,10 +270,46 @@ ul.nav.tera-nav-pills li a{
   margin-bottom: 30px;
 }
 
-.tera-contents-h3 h3{
+.tera-try-title{
+  border-bottom: 1px solid #ddd;
+  margin: 30px 0;
+}
+.tera-try-title h3{
   font-size: 23px;
   font-weight: bold;
-  padding: 50px 0;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.tera-try-title span{
+  font-size: 15px;
+  color: #7c7c7c;
+  padding: 10px;
+  border-right: 1px dashed #ddd;
+  margin-right: 15px; 
+}
+
+.tera-audio p{
+  color: #7c7c7c;
+  font-size: 13px;
+}
+
+.tera-try{
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+
+/*
+
+  Customer.html
+
+
+*/
+
+/*  Comming soonのやつですので、消しましょうね  */
+.tera-customer{
+  margin: 150px 0;
 }
 
 
@@ -289,7 +323,7 @@ ul.nav.tera-nav-pills li a{
   background-color: #7F7F7F;
   color: #ddd;
   font-size: 13px;
-  padding: 30px 15px 70px;
+  padding: 30px 15px 150px;
   text-align: right;
 }
 
