@@ -1,0 +1,9 @@
+title: web terakoya
+
+img_path: /assets/images/
+
+
+
+
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
+

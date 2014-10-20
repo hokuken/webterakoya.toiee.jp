@@ -1,5 +1,6 @@
 body{
   background-image: url(/images/background-paper.png);
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 .tera-container{
@@ -8,19 +9,25 @@ body{
 
 .tera-header{
   background-image: url(/images/eyecatch-bg.png);
-  position: center center;
+  background-position: center center;
   height: 360px;
 }
 
 
-
-#tera-lists .episodes{
-  margin: 50px 50px;
+.episodes{
+  margin: 0;
   background-color: #fff;
   position: inherit;
 }
 
-#tera-lists .episodes span{
+@media (min-width:768px){
+  .episodes{
+    margin: 50px 50px;    
+  }
+}
+
+
+.episodes span.triangle{
   display: block;
   width: 0;
   height: 0;
@@ -30,17 +37,26 @@ body{
   position: absolute;
 }
 
+.episodes span.number{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #fff;
+  font-size: 25px; 
+  font-style: italic; 
+}
+
+.episode{
+/*   padding: 30px; */
+  position: relative;
+}
+
 .episode h2{
   padding: 50px 30px 10px 70px;
-  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 .episode p{
-  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   padding: 0px 30px 50px 70px;
 }
 
 
-.episode{
-/*   padding: 30px; */
-}
